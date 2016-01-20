@@ -7,7 +7,7 @@ void intake_matrix(float p[][5],int n)
 	{
 		for (int j=0;j<=n;j++)
 		{
-			cout<<"\n Enter the value for "<<i+1<<" row and "<<j+1<<" column: ";
+			cout<<"\n Enter value for "<<i+1<<" row and "<<j+1<<" column: ";
 			cin>>p[i][j];
 		}
 	}	
